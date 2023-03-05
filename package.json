@@ -1,0 +1,27 @@
+{
+  "name": "estacionamento-privado",
+  "version": "1.0.0",
+  "description": "Sistema de entrada e saída de um estacionamento.\r Valor único durante toda permanência que desejar.\r Ao entrar, será gerado um ticket.\r Ao sair, deverá ser dado baixa no mesmo ticket.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelpdeandrade/estacionamento-privado.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafaelpdeandrade/estacionamento-privado/issues"
+  },
+  "homepage": "https://github.com/rafaelpdeandrade/estacionamento-privado#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pg": "^8.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
